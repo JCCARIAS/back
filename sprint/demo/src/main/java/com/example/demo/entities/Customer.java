@@ -14,9 +14,9 @@ public class Customer {
  @Id
  @GeneratedValue(strategy = GenerationType.IDENTITY)
  private Long id;
-    private String nombre;
-    private String nit;        // Número de identificación tributaria, importante para clientes
-    private String direccion;
-    private String telefono;
-    private String email;
+    private String name;
+    private String email;        // Número de identificación tributaria, importante para clientes
+    private String phone;
+    private String address;
+
 }

@@ -18,17 +18,6 @@ private CustomerRepository repository;
      return (List<Customer>) repository.findAll();
 
     }
-
-    @Override
-    public List<Customer> get(Long id) {
-        return List.of();
-    }
-
-    @Override
-    public Customer findAllById(Long id) {
-        return null;
-    }
-
     @Override
     public Customer getById(Long id) {
         return (Customer) repository.findById(id).get();

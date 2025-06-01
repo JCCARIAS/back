@@ -11,8 +11,8 @@ import java.util.List;
 public interface  ICustomerService{
     List<Customer> getAll();
 
-    List<Customer> get(Long id);
-    Customer findAllById(Long id);
+
+
 
     Customer getById(Long id);
 
